@@ -1,16 +1,16 @@
 # DESCRIPTION
-
+This script helps you to create GitHub mirrors of your GitLab repositories. You should have filesystem access to your GitLab server as **root** or **\<gitlab system user>** to use it.
 
 # CONFIGURATION
-* Copy mirror-g2g.conf.samle to mirror.g2g.conf
-* Configure your github username, name of the gitlab system user and gitlab repositories dir (as described at "Gitlab custom hooks")
-* su - \<gitlab system user> -c ssh-keygen
-* add ~\<gitlab system user>/.ssh/id_rsa.pub to github deploy keys
+* Copy `mirror-g2g.conf.samle` to `mirror.g2g.conf`.
+* Configure your github username, name of the gitlab system user and gitlab repositories dir (as described at **"Gitlab custom hooks"**).
+* `su - <gitlab system user> -c ssh-keygen`.
+* add **~\<gitlab system user>/.ssh/id_rsa.pub** to github deploy keys.
 
 # USAGE
-To create mirror of \<group>/\<repository>.git
-* Create \<repository> GitHub repository.
-* Run `mirror-g2g.sh <group>/<repository>` as root or \<gitlab system user> user.
+To create mirror of **\<group>/\<repository>.git**:
+* Create **\<repository>** GitHub repository (or import it from GitLab with GitHub importing tool).
+* Run `mirror-g2g.sh <group>/<repository>` as **root** or **\<gitlab system user>** user.
 
 # HELP TOPICS
 ## StackExchange

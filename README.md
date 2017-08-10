@@ -10,12 +10,12 @@
 # USAGE
 To create mirror of \<group>/\<repository>.git
 * Create \<repository> GitHub repository.
-* Run mirror-g2g.sh \<group>/\<repository> as root or \<gitlab system user> user.
+* Run `mirror-g2g.sh \<group>/\<repository>` as root or \<gitlab system user> user.
 
 # HELP TOPICS
 ## StackExchange
-1. GitLab to GitHub mirror configuring: https://stackoverflow.com/questions/21962872/how-to-create-a-gitlab-webhook-to-update-a-mirror-repo-on-github
-	See also:
+1. GitLab to GitHub mirror configuring: https://stackoverflow.com/questions/21962872/how-to-create-a-gitlab-webhook-to-update-a-mirror-repo-on-github  
+	See also:  
 		https://stackoverflow.com/questions/14288288/gitlab-repository-mirroring
 2. Checking for remote git repository: https://superuser.com/questions/227509/git-ping-check-if-remote-repository-exists
 3. Scripting with 'su': https://stackoverflow.com/questions/3420280/can-i-run-su-in-the-middle-of-a-bash-script

@@ -10,7 +10,7 @@
 # USAGE
 To create mirror of \<group>/\<repository>.git
 * Create \<repository> GitHub repository.
-* Run `mirror-g2g.sh \<group>/\<repository>` as root or \<gitlab system user> user.
+* Run `mirror-g2g.sh <group>/<repository>` as root or \<gitlab system user> user.
 
 # HELP TOPICS
 ## StackExchange
